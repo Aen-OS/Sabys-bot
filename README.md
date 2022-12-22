@@ -1,6 +1,5 @@
 # sabrine-s-bot
-A cousin of mine needs to buy some shoes and they sell out quickly. I made a bot for this.
-
+A cousin of mine needs to buy some shoes and they sell out quickly. I made a bot for this:
 
 Let’s call the bot GUU (7th December - update: this is a stupid name, I called the bot ‘bot’)
 
@@ -14,11 +13,9 @@ Requirements:
 - Send a notification (when IN STOCK) as quick as the first 10 seconds.
 - Needs to take product name and size as input
     
-    (within block structure - it needs to deliver IN STOCK or OUT OF STOCK as output)
-    
 This output needs to be fed into ‘send notification’ function that decides whether to alert sabrine or not (depending on whether it’s in stock or not, respectively)
     
-
+Thoughts:
 The bot is able to poll a website every 5 seconds. However, we might want to get it to do it less to prevent being blocked (either every minute, 5 minutes, 10 minutes; because it’s only a shoe, one could do it every half hour or even an hour).
 
 What would be even better is to have the boots be bought immediately once in stock. 
