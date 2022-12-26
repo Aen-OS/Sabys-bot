@@ -37,3 +37,7 @@ All that’s left is to look into getting a proxy involved and find a way to get
 VMs are perfect for this, as specific IPs seem to get banned. The bot worked before but now doesn’t work at all on my fedora, and still doesn’t work; bans aren’t temporary (but using the bot inside of a vm worked so it could just be that windows is easier to deal with than linux, i’m not sure). So with a proxy I’ll be safeguarding the VM ip.
 
 so what I want the bot to do now is just check if the product is available in a specific colour and specific size then notify Sabrine (via email). That’s the first objective.
+
+update: the bot works but just needs a proxy to prevent from being ip-banned. it also requires 'nodemailer' to send the email notification.
+you could also add checkout functionality for extra credit.
+I've stopped working on this because the sole purpose of it's existence has disappeared; the shoe is out of stock, indefinitely.
